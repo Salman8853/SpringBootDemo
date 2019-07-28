@@ -34,6 +34,7 @@ public class EmpController {
 
 	}
         
+        
         @GetMapping("/getEmpBYNo/{empno}")
         public String getEmpBYNo(@PathVariable Long empno)
         {
@@ -46,4 +47,5 @@ public class EmpController {
             return empService.getAllEmp();
         }
     
+        
 }
